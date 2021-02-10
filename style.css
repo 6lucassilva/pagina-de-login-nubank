@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --roxo: #81259d;
+    --branco: #fff;
+    --roxo-bottom: #8d3dc8;
+}
+
 /*corpo padrão*/
 
 body{
-    background: #81259d;
+    background: var(--roxo);
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif
 }
 
@@ -24,7 +30,7 @@ img{
     width: 448px;
     height: 136px;
     margin: auto;
-    background: white;
+    background: var(--branco);
     padding: 38px 0 16px 0;
     margin-top: -78px;
 }
@@ -39,7 +45,7 @@ img{
 /*área de conteúdo, CPF, Senha e botão */
 
 #main{
-    background: white;
+    background: var(--branco);
     width: 448px;
     height: 448px;
     margin: auto;
@@ -47,7 +53,7 @@ img{
 }
 
 #content{
-    background: white;
+    background: var(--branco);
     width: 320px;
     height: 269px;
     font-size: 10px;
@@ -59,7 +65,7 @@ img{
     padding: 2px 2px 0px 2px;
     width: 320px;
     height: 81px;
-    background: white;
+    background: var(--branco);
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
 }
 
@@ -71,6 +77,7 @@ input{
     border-right: none;
     border-bottom: dotted 1px;
     font-size: 20px;
+    outline: none;
 }
 
 #bottom{
@@ -78,8 +85,8 @@ input{
     padding: 26px 32px 17px 32px;
     margin: 60px 0px 0px 0px;
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
-    color: #81259d;
-    border: solid #81259d 1px;
+    color: var(--roxo);
+    border: solid var(--roxo) 1px;
     border-radius: 0.50rem;
     width: 316px;
     height: 67px;
@@ -87,17 +94,23 @@ input{
     font-size: 13px;
 }
 
+#bottom:hover{
+    background: var(--roxo-bottom);
+    color: var(--branco);
+    cursor: pointer
+}
+
 /*área de ajuda do usuário*/
 
 #help{
-    background: white;
+    background: var(--branco);
     width: 316px;
     height: 56px;
     margin: 48px 0 0 0;
     text-align: center;
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
     font-size: 14px;
-    color: #81259d;
+    color: var(--roxo);
 }
 
 #help1{
