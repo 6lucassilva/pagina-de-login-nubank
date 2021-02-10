@@ -1,0 +1,105 @@
+/*comando geral*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*corpo padrão*/
+
+body{
+    background: #81259d;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif
+}
+
+/*imagem canto esquerdo superior*/
+
+img{
+    margin: 26px;
+}
+
+/*área descrita login*/
+
+#top{
+    border-radius: 0.50rem 0.50rem 0 0;
+    width: 448px;
+    height: 136px;
+    margin: auto;
+    background: white;
+    padding: 38px 0 16px 0;
+    margin-top: -78px;
+}
+
+#top p{
+    margin: 21px 0 21px 0;
+    font-size: 21px;
+    color: #222222;  
+    text-align: center;
+}
+
+/*área de conteúdo, CPF, Senha e botão */
+
+#main{
+    background: white;
+    width: 448px;
+    height: 448px;
+    margin: auto;
+    border-radius: 0 0 0.50rem 0.50rem;
+}
+
+#content{
+    background: white;
+    width: 320px;
+    height: 269px;
+    font-size: 10px;
+    color: darkgray;
+    margin: 0px 64px 0px 64px;
+}
+
+.card{
+    padding: 2px 2px 0px 2px;
+    width: 320px;
+    height: 81px;
+    background: white;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
+}
+
+input{
+    width: 316px;
+    height: 39px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: dotted 1px;
+    font-size: 20px;
+}
+
+#bottom{
+    background: white;
+    padding: 26px 32px 17px 32px;
+    margin: 60px 0px 0px 0px;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
+    color: #81259d;
+    border: solid #81259d 1px;
+    border-radius: 0.50rem;
+    width: 316px;
+    height: 67px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/*área de ajuda do usuário*/
+
+#help{
+    background: white;
+    width: 316px;
+    height: 56px;
+    margin: 48px 0 0 0;
+    text-align: center;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: #81259d;
+}
+
+#help1{
+    margin: 24px 0px;
+}

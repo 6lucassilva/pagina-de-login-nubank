@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nubank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <img src="logo/logo.png" alt="logo" width="80" height="80">
+    <div id="top"> 
+        <p><strong>Faça seu login</strong></p>
+    </div>
+</header>
+
+<main>  
+    <div id="main">
+        <div id="content">
+        <div class="card">
+        <h2>CPF</h2>
+        <input type="text">  
+        </div>
+        <div class="card">
+        <h2>Senha</h2>
+        <input type="text">   
+        <h3 id="bottom" onmouseenter="entrar()" onmouseout="sair()">CONTINUAR</h3>
+        <div id="help">
+        <span><strong>Esqueci minha senha</strong> </span> <strong>&gt;</strong>
+        <div id="help1">
+        <span><strong>Ainda não sou cliente</strong> </span> <strong>&gt;</strong>
+        </div>
+    </div>
+</main>      
+
+<script>
+    function entrar() {
+        var enter = window.document.getElementById('bottom')
+        enter.style.background = '#8d3dc8'
+        enter.style.color = 'white'
+    }
+
+    function sair() {
+        var out = window.document.getElementById('bottom')
+        out.style.background = 'white'
+        out.style.color = '#81259d'
+    }
+</script>
+
+</body>
+</html>
