@@ -90,7 +90,7 @@ input{
     padding: 26px 32px 17px 32px;
     margin: 60px 0px 0px 0px;
     color: var(--roxo);
-    border: solid var(--roxo) 1px;
+    border: solid var(--roxo-bottom) 1px;
     border-radius: 0.50rem;
     width: 316px;
     height: 67px;
